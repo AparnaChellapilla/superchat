@@ -1,6 +1,6 @@
 body {
   background-color: #282c34;
-}
+  }
 
 .App {
   text-align: center;
@@ -30,6 +30,7 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+  background-image:url("chatbackground.jpg");
   background-color: rgb(40, 37, 53);
 }
 

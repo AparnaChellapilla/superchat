@@ -10,12 +10,13 @@ import {useCollectionData} from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
   //your.config
-  apiKey: "AIzaSyAjrK56rlU2iY8oZFD2ixyLctLagz4hO78",
-  authDomain: "superchat-eab80.firebaseapp.com",
-  projectId: "superchat-eab80",
-  storageBucket: "superchat-eab80.appspot.com",
-  messagingSenderId: "802708567787",
-  appId: "1:802708567787:web:e63281661bb51ab4b5f0ae"
+  apiKey: "AIzaSyAYlUmYtRvFPqU_Gx5HVgsV0f11EMlBfXY",
+    authDomain: "chirpchirp-cdcbb.firebaseapp.com",
+    databaseURL: "https://chirpchirp-cdcbb-default-rtdb.firebaseio.com",
+    projectId: "chirpchirp-cdcbb",
+    storageBucket: "chirpchirp-cdcbb.appspot.com",
+    messagingSenderId: "125143703545",
+    appId: "1:125143703545:web:0b14a079781af038abe728"
 })
 
 const auth = firebase.auth();
